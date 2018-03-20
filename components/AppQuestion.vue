@@ -57,7 +57,7 @@ export default {
       } else if (this.answerProccess) {
         this.answer += event.data
       } else {
-        this.outputText += event.data
+        this.outputText += event.data ? event.data : ''
       }
 
       if (this.answerProccess) {
@@ -68,7 +68,9 @@ export default {
       // Workaround for Safari bug
       // http://stackoverflow.com/questions/1269722/selecting-text-on-focus-using-jquery-not-working-in-safari-and-chrome
       setTimeout(function () {
-      	event.target.value = ''
+        event.target.value = ''
+        this.outputText = ''
+        this.answerProccess = false
       }, 0)
     },
   },
