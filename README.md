@@ -2,6 +2,8 @@
 
 > Old MS Dos game A.K.A. SUED, Lucifer or Guru
 
+[![Build Status](https://travis-ci.org/marcelnakamine/lucifer.svg?branch=master)](https://travis-ci.org/marcelnakamine/lucifer)
+
 ## Build Setup
 
 ``` bash
