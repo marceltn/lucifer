@@ -4,6 +4,8 @@
 
 [![Build Status](https://travis-ci.org/marcelnakamine/lucifer.svg?branch=master)](https://travis-ci.org/marcelnakamine/lucifer)
 
+[Demo](http://marcelnakamine.github.io/lucifer/)
+
 ## Build Setup
 
 ``` bash
