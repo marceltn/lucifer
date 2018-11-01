@@ -6,6 +6,12 @@
 
 [Demo](http://marcelnakamine.github.io/lucifer/)
 
+## How it works
+
+Start pressing ";" symbol, then write the answer and write again the ";" symbol. After that please finish the phrase.
+
+When press ";" symbol, the program start listenning the answer.
+
 ## Build Setup
 
 ``` bash
